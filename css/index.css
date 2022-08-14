@@ -1,0 +1,176 @@
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+img[src="./images/logo.svg"]{
+   
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.nav-items{
+    color: #696969;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -80px;
+    left: -10px;
+    display: flex;
+    margin-right: 500px;
+    margin-left: 300px;
+    justify-content: space-between;
+    font-size: 200%;
+}
+.nav-items h5:hover{
+    color: #FE5E35;
+    cursor: pointer;
+}
+
+img[src="./images/actions.svg"]{
+    
+    position: relative;
+    top: -170px;
+    left: 1050px;
+}
+
+h3{
+    font-family: poppins;
+    position: relative;
+    font-size: 250%;
+    font-weight: 200;
+    top: -160px;
+    left: 10px;
+}
+
+.left-section h1{
+    font-size: 350%;
+    font-family: Fredoka One;
+    font-weight: bolder;
+    position: relative;
+    top: -180px;
+    left: 20px;
+}
+
+.sub-headlines{
+    
+    position: relative;
+    top: -200px;
+    left: 30px;
+    font-family: poppins;
+    font-size: 25px;
+    width: 300px;
+}
+div .sub-headline img[src="./images/plus.svg"]{
+    background-color: #FE5E35;
+    border-radius: 0.9rem;
+}
+
+
+.text{
+    position: relative;
+    top: -200px;
+    left: 10px;
+    margin-left: 10px;
+    margin-right: 750px;
+    color: #696969;
+}
+
+.action-btns{
+    position: relative;
+    top: -200px;
+    left: 30px;
+    
+}
+.action-btn{
+    color: #fff;
+    border:#FE5E35;
+    background-color: #FE5E35;
+    border-radius: 1.8em;
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 100%;
+}
+
+img[src="./images/headphones.jpg"]{
+   
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    width: 500px;
+    z-index: 1;
+    /* top: -1030px;
+    left: 800px;
+    width: 450px; */
+} 
+
+img[src="./images/discount.svg"]{
+    position: relative;
+    top: -450px;
+    left: 650px;
+    z-index: 2;
+}  
+
+.discount-content h4{
+    color: #fff;
+    font-size: 150%;
+    position: relative;
+    top: -599px;
+    left: 700px;
+    z-index: 3;
+}
+
+.discount-content h1{
+    color: #fff;
+    font-size: 150%;
+    position: relative;
+    top: -620px;
+    left: 710px;
+    z-index: 3;
+}
+/* 
+.dots{
+    background-color: aqua;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(253, 253, 8);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -550px;
+    left: 900px;
+}
+
+.dot tomato-dot{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(253, 8, 8);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top:-500px;
+    left: 800px;
+}
+
+.dot black-dot {
+    position: relative;
+    display: inline-block;
+    top: -500px;
+    left: 500px;
+    margin-right: 500px;
+    margin-left: 300px;
+    justify-content: space-between;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(6, 6, 0); 
+    border-radius: 50%;
+ 
+}   */
+
+.right-section button{
+    position: relative;
+    top: -570px;
+    left: 900px;
+}
